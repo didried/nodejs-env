@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+
+  tasks:
+    - name: download requirements
+      command: ansible-galaxy install -r requirements.yml -p roles/
+...
