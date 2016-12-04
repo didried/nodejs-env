@@ -24,7 +24,7 @@ nodejs_npm_global_packages: []
 
 ```
 ansible-playbook install-requirements.yml
-ansible-playbook nodejs-env.yml
+ansible-playbook nodejs-env.yml -K
 ```
 
 ## License
